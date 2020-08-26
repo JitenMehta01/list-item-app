@@ -1,0 +1,111 @@
+/*** 
+ * 
+ * 
+ *  **** VARIABLES
+ * 
+ *****************************************************************/
+
+const toggleList = document.getElementById('toggleList');
+const listDiv = document.querySelector('.list');
+const descriptionInput = document.querySelector('input.description');
+const descriptionP = document.querySelector('p.description');
+const descriptionButton = document.querySelector('button.description');
+const listUl = listDiv.querySelector('ul');
+const addItemInput = document.querySelector('input.addItemInput');
+const addItemButton = document.querySelector('button.addItemButton');
+const lis = listUl.children;
+const firstListItem = listUl.firstElementChild;
+const lastListItem = listUl.lastElementChild;
+
+
+/***
+ * 
+ * 
+ *  **** BUTTON - FUNCTION
+ * 
+ *****************************************************************/
+
+/** ADD THREE BUTTONS TO THE DOM. THE BUTTONS ARE:
+ *  - UP
+ *  - DOWN
+ *  - REMOVE
+ * 
+ * YOU HAVE CRREATE THESE BUTTONS, ADD AN APPROPIATE CLASSNAME, GIVE IT TEXT AND THEN APPEND IT TO THE LI PAREMETER
+ * THEN LOOP THROUGH THE LIS VARIABLE AND PASS EACH LIST ITEM AS AN ARGUEMENT TO THE ATTACHLISTITEMBUTTONS FUNCTION. **/
+
+
+
+
+
+/***
+ * 
+ * 
+ *  **** MOVING LI ELEMENTS UP AND DOWN - FUNCTIONS
+ * 
+ *****************************************************************/
+
+/** CREATE A FUNCTION WHICH ALLOWS USERS TO MOVE LI ELEMENTS UP AND DOWN.
+ * 
+ *  - THIS FUNCTION WILL THREE IF STATEMENTS.
+ *  - EACH STATEMENT WILL CHECK IF THE USER HAS CLICKED ON THE RESPECTIVE BUTTON
+ *  
+ *  - IF THE USER CLICKS ON THE REMOVE BUTTON, THIS SHOULD REMOVE THE LIST ITEM FROM THE UL
+ *  - IF THE USER CLICKS ON THE UP BUTTON, THE LI SHOULD MOVE UP, ONLY IF IT HAS A PREVIOUS ELEMENT SIBLING IN THE DOM
+ *  - IF THE USER CLICKS ON THE DOWN BUTTON, THE LI SHOULD MOVE DOWN, ONLY IS THERE IS ANOTHER LI ELEMENT AFTER IT IN THE DOM
+ * 
+ * YOU HAVE CRREATE THESE BUTTONS, ADD AN APPROPIATE CLASSNAME, GIVE IT TEXT AND THEN APPEND IT TO THE LI PAREMETER
+ * THEN LOOP THROUGH THE LIS VARIABLE AND PASS EACH LIST ITEM AS AN ARGUEMENT TO THE ATTACHLISTITEMBUTTONS FUNCTION. **/
+
+
+
+
+
+/***
+ * 
+ * 
+ *  **** ADDING A CLICK EVENT TO LIST TOOGLELIST VARIABLE
+ * 
+ *****************************************************************/
+
+/** - WHEN THE USER CLICKS ON THE TOGGLE LIST BUTTON, IT NEEDS TO HIDE OR SHOW THE LIST DIV.
+ *  - IN THE CLICK EVENT, YOU WILL CHANGE THE BUTTONS TEXT CONTENT DEPENDING IF THE DIV IS DISPLAYED OR NOT. **/
+
+
+
+
+
+
+
+/***
+ * 
+ * 
+ *  **** ADDING A CLICK EVENT DESCRIPTIONBUTTON VARIABLE
+ * 
+ *****************************************************************/
+
+/** - WHEN THIS BUTTON IS CLICKED, THE INNER HTML OF THE DESCRIPTIONP VARIBALBE NEEDS TO CHANGE DEPENDING ON WHAT EVER THE USER HAS TYPED IN THE INPUT FIELD
+ *  - BE SURE TO CONCATENATE THE VALUE OF THE INPUT WITH A COLON. FOR EXAMPLE 'MY LIST IS:'
+ *  - MAKE SURE TO CLEAR THE INPUT FIELD IN THE CLICK EVENT **/
+
+
+
+/***
+ * 
+ * 
+ *  **** ADDING A CLICK EVENT TO THE ADDITEMBUTTON VARIABLE
+ * 
+ *****************************************************************/
+
+/** - IN THIS CLICK EVENT YOU WANT TO ADD A LIST ITEM WITH WHATEVER THE USER HAS TYPED IN THE INPUT FIELD, ALONG WITH ALL THREE BUTTONS
+ *  - YOU WILL NEED TO CREATE A LIST ITEM AND GAIN REFERNECE TO ITS PARENT ELEMENT.
+ *  - THEN YOU WILL NEED TO CALL A FUNCTION WHICH APPENDS THE BUTTONS AND PASS IT A ARGUEMENT
+ *  - THEN APPEND THE LIST ITEM TO THE UL
+ *  - BE SURE TO CLEAR THE ADD ITEM INPUT FIELD ONCE ITS BEEN CLICKED
+ * 
+ *  - BONUS - BRING UP AN ALERT MESSAGE IF THE ADD ITEM INPUT FIELD IS EMPTY. THE ALERT MESSAGE SHOULD ASK THE USER TO TYPE IN A LIST ITEM.
+ *  -  **/
+
+
+  
+  
+
